@@ -33,11 +33,12 @@
 --  2018
 --
 --  Rta/
-SELECT COUNT(*)
-FROM tbl1
-WHERE YEAR(c14) = 2018;
---     YEAR  CANT
---  0  2018     6
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+--     YEAR  CANT
+--  0  2018     6
+
+SELECT COUNT(*)
+FROM tbl1
+WHERE YEAR(c14) = 2018;
