@@ -33,7 +33,6 @@
 --  columna c16 empieza por la misma letra de la columna K0.
 --
 --  Rta/
-SELECT K0, c16 FROM tbl1 WHERE SUBSTR(c16, 1, 1) = SUBSTR(K0, 1, 1);
 --    K0   c16
 --  0  E  EGFD
 --  1  B  BDEE
@@ -41,3 +40,4 @@ SELECT K0, c16 FROM tbl1 WHERE SUBSTR(c16, 1, 1) = SUBSTR(K0, 1, 1);
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT K0, c16 FROM tbl1 WHERE SUBSTR(c16, 1, 1) = SUBSTR(K0, 1, 1);
