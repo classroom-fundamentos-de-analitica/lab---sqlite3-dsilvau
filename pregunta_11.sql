@@ -39,6 +39,5 @@
 --     YEAR  CANT
 --  0  2018     6
 
-SELECT COUNT(*)
-FROM tbl1
-WHERE YEAR(c14) = 2018;
+SELECT COUNT(*) FROM tbl1
+WHERE strftime('%Y', c14) = '2018'
